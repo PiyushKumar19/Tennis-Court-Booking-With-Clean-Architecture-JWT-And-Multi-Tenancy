@@ -35,7 +35,7 @@ namespace TennisCourtBookings.Application.Features.UserFeatures.RegisterUser
             user.PasswordSalt = passwordSalt;
 
             _userRepository.Create(user);
-            await _unitOfWork.Save(cancellationToken);
+            var res = await _unitOfWork.Save(cancellationToken);
 
             return _mapper.Map<RegisterUserResponse>(user);
         }

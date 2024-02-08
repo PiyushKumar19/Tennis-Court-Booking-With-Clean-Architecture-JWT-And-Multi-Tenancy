@@ -59,7 +59,7 @@ namespace TennisCourtBookings.Application.Features.UserFeatures.LoginUser
             {
                 new Claim(ClaimTypes.Name, user.Username),
                 new Claim(ClaimTypes.Role, "Admin"),
-                new Claim(ClaimTypes.Role, "Rookie")
+                //new Claim(ClaimTypes.Role, "Rookie") BY
             };
 
             var key = new SymmetricSecurityKey(System.Text.Encoding.UTF8.GetBytes(

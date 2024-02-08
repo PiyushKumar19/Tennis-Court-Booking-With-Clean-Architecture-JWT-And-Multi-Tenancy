@@ -16,9 +16,9 @@ namespace TennisCourtBookings.Persistence.Repositories
         {
             _context = context;
         }
-        public Task Save(CancellationToken cancellationToken)
+        public async Task<int> Save(CancellationToken cancellationToken)
         {
-            return _context.SaveChangesAsync(cancellationToken);
+            return await _context.SaveChangesAsync(cancellationToken);
         }
     }
 }

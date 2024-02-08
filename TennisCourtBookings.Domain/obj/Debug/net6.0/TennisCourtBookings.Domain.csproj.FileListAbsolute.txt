@@ -20,3 +20,4 @@ E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.Domain\obj\Debug\
 E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.Domain\obj\Debug\net6.0\refint\TennisCourtBookings.Domain.dll
 E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.Domain\obj\Debug\net6.0\TennisCourtBookings.Domain.pdb
 E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.Domain\obj\Debug\net6.0\ref\TennisCourtBookings.Domain.dll
+E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.Domain\obj\Debug\net6.0\TennisCourtBookings.Domain.sourcelink.json

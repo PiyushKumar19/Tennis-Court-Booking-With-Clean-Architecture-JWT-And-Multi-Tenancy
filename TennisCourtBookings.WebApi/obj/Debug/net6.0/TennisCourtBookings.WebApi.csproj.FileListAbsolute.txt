@@ -173,3 +173,4 @@ E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.WebApi\obj\Debug\
 E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.WebApi\obj\Debug\net6.0\TennisCourtBookings.WebApi.csproj.CopyComplete
 E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.WebApi\obj\Debug\net6.0\TennisCourtBookings.WebApi.genruntimeconfig.cache
 E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.WebApi\obj\Debug\net6.0\ref\TennisCourtBookings.WebApi.dll
+E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.WebApi\obj\Debug\net6.0\TennisCourtBookings.WebApi.sourcelink.json

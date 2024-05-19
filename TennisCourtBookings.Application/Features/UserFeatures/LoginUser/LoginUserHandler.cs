@@ -21,14 +21,14 @@ namespace TennisCourtBookings.Application.Features.UserFeatures.LoginUser
         private readonly IUnitOfWork _unitOfWork;
         private readonly IUserRepository _userRepository;
         private readonly IMapper _mapper;
-        private readonly IConfiguration configuration;
+        private readonly IConfiguration _configuration;
 
         public LoginUserHandler(IUnitOfWork unitOfWork, IUserRepository userRepository, IMapper mapper, IConfiguration configuration)
         {
             _unitOfWork = unitOfWork;
             _userRepository = userRepository;
             _mapper = mapper;
-            this.configuration = configuration;
+            _configuration = configuration;
         }
 
         public async Task<LoginUserResponse> Handle(LoginUserRequest request, CancellationToken cancellationToken)
@@ -45,7 +45,7 @@ namespace TennisCourtBookings.Application.Features.UserFeatures.LoginUser
                 return null;
             }
 
-            string token = CreateToken(exist);
+            string token = CreateToken(exist, request.TenantId);
             var loginResponse = new LoginUserResponse();
 
             loginResponse.Token = token;
@@ -53,17 +53,17 @@ namespace TennisCourtBookings.Application.Features.UserFeatures.LoginUser
             return _mapper.Map<LoginUserResponse>(loginResponse);
         }
 
-        private string CreateToken(User user)
+        private string CreateToken(User user, string tenantId)
         {
             List<Claim> claims = new List<Claim>
-            {
-                new Claim(ClaimTypes.Name, user.Username),
-                new Claim(ClaimTypes.Role, "Admin"),
-                //new Claim(ClaimTypes.Role, "Rookie") BY
-            };
+        {
+            new Claim(ClaimTypes.Name, user.Username),
+            new Claim(ClaimTypes.Role, "Admin"),
+            new Claim("tenant_id", tenantId.ToString()) // Adding TenantId claim
+        };
 
-            var key = new SymmetricSecurityKey(System.Text.Encoding.UTF8.GetBytes(
-                configuration.GetSection("AppSettings:Token").Value));
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(
+                _configuration.GetSection("AppSettings:Token").Value));
 
             var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha512Signature);
 
@@ -81,7 +81,7 @@ namespace TennisCourtBookings.Application.Features.UserFeatures.LoginUser
         {
             using (var hmac = new HMACSHA512(passwordSalt))
             {
-                var computedHash = hmac.ComputeHash(System.Text.Encoding.UTF8.GetBytes(password));
+                var computedHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(password));
                 return computedHash.SequenceEqual(passhwordHash);
             }
         }

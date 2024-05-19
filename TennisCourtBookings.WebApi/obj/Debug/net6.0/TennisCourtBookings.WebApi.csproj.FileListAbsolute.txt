@@ -1,98 +1,3 @@
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\obj\Debug\net6.0\TennisCourtBookings.WebApi.csproj.AssemblyReference.cache
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\obj\Debug\net6.0\TennisCourtBookings.WebApi.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\obj\Debug\net6.0\TennisCourtBookings.WebApi.AssemblyInfoInputs.cache
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\obj\Debug\net6.0\TennisCourtBookings.WebApi.AssemblyInfo.cs
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\obj\Debug\net6.0\TennisCourtBookings.WebApi.csproj.CoreCompileInputs.cache
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\obj\Debug\net6.0\TennisCourtBookings.WebApi.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\bin\Debug\net6.0\appsettings.Development.json
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\bin\Debug\net6.0\appsettings.json
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\bin\Debug\net6.0\TennisCourtBookings.WebApi.exe
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\bin\Debug\net6.0\TennisCourtBookings.WebApi.deps.json
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\bin\Debug\net6.0\TennisCourtBookings.WebApi.runtimeconfig.json
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\bin\Debug\net6.0\TennisCourtBookings.WebApi.dll
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\bin\Debug\net6.0\TennisCourtBookings.WebApi.pdb
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\bin\Debug\net6.0\Autofac.dll
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\bin\Debug\net6.0\AutoMapper.dll
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\bin\Debug\net6.0\AutoMapper.Extensions.ExpressionMapping.dll
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\bin\Debug\net6.0\FluentValidation.dll
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\bin\Debug\net6.0\MediatR.dll
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\bin\Debug\net6.0\MediatR.Contracts.dll
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\bin\Debug\net6.0\MediatR.Extensions.Autofac.DependencyInjection.dll
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\bin\Debug\net6.0\Microsoft.Identity.Client.dll
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\bin\Debug\net6.0\System.Drawing.Common.dll
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\bin\Debug\net6.0\System.Runtime.Caching.dll
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\bin\Debug\net6.0\System.Security.Permissions.dll
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\bin\Debug\net6.0\System.Windows.Extensions.dll
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\bin\Debug\net6.0\TennisCourtBookings.Application.dll
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\bin\Debug\net6.0\TennisCourtBookings.Domain.dll
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\bin\Debug\net6.0\TennisCourtBookings.Persistence.dll
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\bin\Debug\net6.0\TennisCourtBookings.Application.pdb
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\bin\Debug\net6.0\TennisCourtBookings.Persistence.pdb
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\bin\Debug\net6.0\TennisCourtBookings.Domain.pdb
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\obj\Debug\net6.0\TennisCourtBookings.WebApi.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\obj\Debug\net6.0\staticwebassets.build.json
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\obj\Debug\net6.0\staticwebassets.development.json
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\obj\Debug\net6.0\staticwebassets\msbuild.TennisCourtBookings.WebApi.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\obj\Debug\net6.0\staticwebassets\msbuild.build.TennisCourtBookings.WebApi.props
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.TennisCourtBookings.WebApi.props
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.TennisCourtBookings.WebApi.props
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\obj\Debug\net6.0\staticwebassets.pack.json
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\obj\Debug\net6.0\scopedcss\bundle\TennisCourtBookings.WebApi.styles.css
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\obj\Debug\net6.0\TennisCourtBookings.WebApi.csproj.CopyComplete
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\obj\Debug\net6.0\TennisCourtBookings.WebApi.dll
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\obj\Debug\net6.0\refint\TennisCourtBookings.WebApi.dll
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\obj\Debug\net6.0\TennisCourtBookings.WebApi.pdb
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\obj\Debug\net6.0\TennisCourtBookings.WebApi.genruntimeconfig.cache
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\obj\Debug\net6.0\ref\TennisCourtBookings.WebApi.dll
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\bin\Debug\net6.0\Humanizer.dll
-C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.WebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
-E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.WebApi\obj\Debug\net6.0\TennisCourtBookings.WebApi.csproj.AssemblyReference.cache
-E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.WebApi\obj\Debug\net6.0\TennisCourtBookings.WebApi.GeneratedMSBuildEditorConfig.editorconfig
-E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.WebApi\obj\Debug\net6.0\TennisCourtBookings.WebApi.AssemblyInfoInputs.cache
-E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.WebApi\obj\Debug\net6.0\TennisCourtBookings.WebApi.AssemblyInfo.cs
-E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.WebApi\obj\Debug\net6.0\TennisCourtBookings.WebApi.csproj.CoreCompileInputs.cache
-E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.WebApi\obj\Debug\net6.0\TennisCourtBookings.WebApi.MvcApplicationPartsAssemblyInfo.cs
-E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.WebApi\obj\Debug\net6.0\TennisCourtBookings.WebApi.MvcApplicationPartsAssemblyInfo.cache
-E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.WebApi\obj\Debug\net6.0\TennisCourtBookings.WebApi.dll
-E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.WebApi\obj\Debug\net6.0\refint\TennisCourtBookings.WebApi.dll
-E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.WebApi\obj\Debug\net6.0\TennisCourtBookings.WebApi.pdb
 E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.WebApi\bin\Debug\net6.0\appsettings.Development.json
 E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.WebApi\bin\Debug\net6.0\appsettings.json
 E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.WebApi\bin\Debug\net6.0\TennisCourtBookings.WebApi.exe
@@ -162,15 +67,25 @@ E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.WebApi\bin\Debug\
 E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.WebApi\bin\Debug\net6.0\TennisCourtBookings.Application.pdb
 E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.WebApi\bin\Debug\net6.0\TennisCourtBookings.Persistence.pdb
 E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.WebApi\bin\Debug\net6.0\TennisCourtBookings.Domain.pdb
+E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.WebApi\obj\Debug\net6.0\TennisCourtBookings.WebApi.csproj.AssemblyReference.cache
+E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.WebApi\obj\Debug\net6.0\TennisCourtBookings.WebApi.GeneratedMSBuildEditorConfig.editorconfig
+E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.WebApi\obj\Debug\net6.0\TennisCourtBookings.WebApi.AssemblyInfoInputs.cache
+E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.WebApi\obj\Debug\net6.0\TennisCourtBookings.WebApi.AssemblyInfo.cs
+E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.WebApi\obj\Debug\net6.0\TennisCourtBookings.WebApi.csproj.CoreCompileInputs.cache
+E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.WebApi\obj\Debug\net6.0\TennisCourtBookings.WebApi.MvcApplicationPartsAssemblyInfo.cs
+E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.WebApi\obj\Debug\net6.0\TennisCourtBookings.WebApi.MvcApplicationPartsAssemblyInfo.cache
+E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.WebApi\obj\Debug\net6.0\TennisCourtBookings.WebApi.sourcelink.json
+E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.WebApi\obj\Debug\net6.0\staticwebassets.build.json
+E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.WebApi\obj\Debug\net6.0\staticwebassets.development.json
 E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.WebApi\obj\Debug\net6.0\staticwebassets\msbuild.TennisCourtBookings.WebApi.Microsoft.AspNetCore.StaticWebAssets.props
 E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.WebApi\obj\Debug\net6.0\staticwebassets\msbuild.build.TennisCourtBookings.WebApi.props
 E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.WebApi\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.TennisCourtBookings.WebApi.props
 E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.WebApi\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.TennisCourtBookings.WebApi.props
 E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.WebApi\obj\Debug\net6.0\staticwebassets.pack.json
-E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.WebApi\obj\Debug\net6.0\staticwebassets.build.json
-E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.WebApi\obj\Debug\net6.0\staticwebassets.development.json
 E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.WebApi\obj\Debug\net6.0\scopedcss\bundle\TennisCourtBookings.WebApi.styles.css
-E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.WebApi\obj\Debug\net6.0\TennisCourtBookings.WebApi.csproj.CopyComplete
+E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.WebApi\obj\Debug\net6.0\TennisCo.32BE0EC5.Up2Date
+E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.WebApi\obj\Debug\net6.0\TennisCourtBookings.WebApi.dll
+E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.WebApi\obj\Debug\net6.0\refint\TennisCourtBookings.WebApi.dll
+E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.WebApi\obj\Debug\net6.0\TennisCourtBookings.WebApi.pdb
 E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.WebApi\obj\Debug\net6.0\TennisCourtBookings.WebApi.genruntimeconfig.cache
 E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.WebApi\obj\Debug\net6.0\ref\TennisCourtBookings.WebApi.dll
-E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.WebApi\obj\Debug\net6.0\TennisCourtBookings.WebApi.sourcelink.json

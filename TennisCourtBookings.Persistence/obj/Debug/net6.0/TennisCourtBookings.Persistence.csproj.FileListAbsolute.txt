@@ -17,14 +17,6 @@ C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.Persistence\
 C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.Persistence\obj\Debug\net6.0\TennisCourtBookings.Persistence.pdb
 C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.Persistence\obj\Debug\net6.0\TennisCourtBookings.Persistence.genruntimeconfig.cache
 C:\Users\jayan\source\repos\TennisCourtBookings\TennisCourtBookings.Persistence\obj\Debug\net6.0\ref\TennisCourtBookings.Persistence.dll
-E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.Persistence\obj\Debug\net6.0\TennisCourtBookings.Persistence.csproj.AssemblyReference.cache
-E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.Persistence\obj\Debug\net6.0\TennisCourtBookings.Persistence.GeneratedMSBuildEditorConfig.editorconfig
-E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.Persistence\obj\Debug\net6.0\TennisCourtBookings.Persistence.AssemblyInfoInputs.cache
-E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.Persistence\obj\Debug\net6.0\TennisCourtBookings.Persistence.AssemblyInfo.cs
-E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.Persistence\obj\Debug\net6.0\TennisCourtBookings.Persistence.csproj.CoreCompileInputs.cache
-E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.Persistence\obj\Debug\net6.0\TennisCourtBookings.Persistence.dll
-E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.Persistence\obj\Debug\net6.0\refint\TennisCourtBookings.Persistence.dll
-E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.Persistence\obj\Debug\net6.0\TennisCourtBookings.Persistence.pdb
 E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.Persistence\bin\Debug\net6.0\TennisCourtBookings.Persistence.deps.json
 E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.Persistence\bin\Debug\net6.0\TennisCourtBookings.Persistence.runtimeconfig.json
 E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.Persistence\bin\Debug\net6.0\TennisCourtBookings.Persistence.dll
@@ -33,7 +25,15 @@ E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.Persistence\bin\D
 E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.Persistence\bin\Debug\net6.0\TennisCourtBookings.Domain.dll
 E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.Persistence\bin\Debug\net6.0\TennisCourtBookings.Application.pdb
 E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.Persistence\bin\Debug\net6.0\TennisCourtBookings.Domain.pdb
-E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.Persistence\obj\Debug\net6.0\TennisCourtBookings.Persistence.csproj.CopyComplete
+E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.Persistence\obj\Debug\net6.0\TennisCourtBookings.Persistence.csproj.AssemblyReference.cache
+E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.Persistence\obj\Debug\net6.0\TennisCourtBookings.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.Persistence\obj\Debug\net6.0\TennisCourtBookings.Persistence.AssemblyInfoInputs.cache
+E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.Persistence\obj\Debug\net6.0\TennisCourtBookings.Persistence.AssemblyInfo.cs
+E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.Persistence\obj\Debug\net6.0\TennisCourtBookings.Persistence.csproj.CoreCompileInputs.cache
+E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.Persistence\obj\Debug\net6.0\TennisCourtBookings.Persistence.sourcelink.json
+E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.Persistence\obj\Debug\net6.0\TennisCo.2C75F2B9.Up2Date
+E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.Persistence\obj\Debug\net6.0\TennisCourtBookings.Persistence.dll
+E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.Persistence\obj\Debug\net6.0\refint\TennisCourtBookings.Persistence.dll
+E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.Persistence\obj\Debug\net6.0\TennisCourtBookings.Persistence.pdb
 E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.Persistence\obj\Debug\net6.0\TennisCourtBookings.Persistence.genruntimeconfig.cache
 E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.Persistence\obj\Debug\net6.0\ref\TennisCourtBookings.Persistence.dll
-E:\Temp\Court Bookings\TennisCourtBookings\TennisCourtBookings.Persistence\obj\Debug\net6.0\TennisCourtBookings.Persistence.sourcelink.json

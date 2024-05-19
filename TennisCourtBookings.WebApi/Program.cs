@@ -9,6 +9,9 @@ using Swashbuckle.AspNetCore.Filters;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using Autofac.Core;
+using TennisCourtBookings.Application.Repositories;
+using TennisCourtBookings.Persistence.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -50,6 +53,11 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             ValidateAudience = false,
         };
     });
+
+builder.Services.AddTransient<ITenantService, TenantService>();
+builder.Services.AddTransient<IProductService, ProductService>();
+builder.Services.Configure<TenantSettings>(builder.Configuration.GetSection(nameof(TenantSettings)));
+builder.Services.AddAndMigrateTenantDatabases(builder.Configuration);
 
 var app = builder.Build();
 

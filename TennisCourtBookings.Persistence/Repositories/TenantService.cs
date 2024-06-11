@@ -38,9 +38,18 @@ namespace TennisCourtBookings.Persistence.Repositories
             }
             else
             {
-                // Handle cases where there's no JWT token (e.g., during user registration)
-                // You may choose to set a default tenant or handle this case as per your application logic
-                _currentTenant = _tenantSettings.Tenants.FirstOrDefault(); // Adjust this as per your requirements
+                // Set the default tenant when no JWT token is present
+                //_currentTenant = _tenantSettings.Defaults.ConnectionString;
+
+                //if (_currentTenant == null)
+                //{
+                //    throw new Exception("Default tenant not configured in tenant settings.");
+                //}
+
+                if (string.IsNullOrEmpty(_tenantSettings.Defaults.ConnectionString))
+                {
+                    _currentTenant.ConnectionString = _tenantSettings.Defaults.ConnectionString;
+                }
             }
         }
 
@@ -62,23 +71,38 @@ namespace TennisCourtBookings.Persistence.Repositories
 
             if (_currentTenant == null)
             {
-                throw new Exception("Invalid Tenant!");
-            }
+                var isDefault = tenantId == "Defaults"; // Check if the tenantId is the default tenant identifier
 
-            if (string.IsNullOrEmpty(_currentTenant.ConnectionString))
+                if (isDefault)
+                {
+                    _currentTenant = new Tenant
+                    {
+                        TID = "Defaults",
+                        ConnectionString = _tenantSettings.Defaults.ConnectionString // Set the default connection string
+                    };
+                }
+                else
+                {
+                    throw new Exception("Invalid Tenant!");
+                }
+            }
+            else if (string.IsNullOrEmpty(_currentTenant.ConnectionString))
             {
-                SetDefaultConnectionStringToCurrentTenant();
+                // If the tenant exists but has no connection string, set the default connection string
+                _currentTenant.ConnectionString = _tenantSettings.Defaults.ConnectionString;
             }
         }
 
-        private void SetDefaultConnectionStringToCurrentTenant()
-        {
-            _currentTenant.ConnectionString = _tenantSettings.Defaults.ConnectionString;
-        }
 
         public string GetConnectionString()
         {
             return _currentTenant?.ConnectionString;
+        }
+
+        public string GetConnectionStringFromTenantId(string tenantId)
+        {
+            SetTenant(tenantId);
+            return GetConnectionString();
         }
 
         public string GetDatabaseProvider()

@@ -11,5 +11,8 @@ namespace TennisCourtBookings.Application.Repositories
         Task<Product> CreateAsync(string name, string description, int rate);
         Task<Product> GetByIdAsync(int id);
         Task<IReadOnlyList<Product>> GetAllAsync();
+        Task<Product> GetProductDetailsAsync(int productId, string tenantId);
+        Task<IReadOnlyList<Product>> GetAllProductDetailsAsync(string tenantId);
+
     }
 }

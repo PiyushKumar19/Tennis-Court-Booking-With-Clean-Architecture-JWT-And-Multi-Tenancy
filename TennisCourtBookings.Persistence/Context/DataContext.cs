@@ -14,7 +14,7 @@ namespace TennisCourtBookings.Persistence.Context
 {
     public class DataContext : DbContext
     {
-        public string TenantId { get; set; }
+        public string TenantId { get; private set; }
         private readonly ITenantService _tenantService;
         private readonly IHttpContextAccessor _httpContextAccessor;
 
@@ -28,6 +28,11 @@ namespace TennisCourtBookings.Persistence.Context
             {
                 TenantId = _tenantService.GetTenant()?.TID;
             }
+            else
+            {
+                // Use default tenant if no token is present
+                TenantId = "Defaults"; // or any other default tenant ID
+            }
         }
 
         public DbSet<User> Users { get; set; }
@@ -39,15 +44,20 @@ namespace TennisCourtBookings.Persistence.Context
         {
             base.OnModelCreating(modelBuilder);
 
-            if (!string.IsNullOrEmpty(TenantId))
-            {
-                modelBuilder.Entity<Product>().HasQueryFilter(a => a.TenantId == TenantId);
-            }
+            // Apply query filters only if TenantId is set
+            //if (!string.IsNullOrEmpty(TenantId) && TenantId != "Defaults")
+            //{
+            //    modelBuilder.Entity<Product>().HasQueryFilter(a => a.TenantId == TenantId);
+            //}
+
+            modelBuilder.Entity<Product>().HasQueryFilter(a => a.TenantId == TenantId);
+
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            if (_httpContextAccessor.HttpContext?.User.Identity.IsAuthenticated == true)
+            // Configure options only if TenantId is set
+            if (!string.IsNullOrEmpty(TenantId) && TenantId != "Defaults")
             {
                 var tenantConnectionString = _tenantService.GetConnectionString();
                 if (!string.IsNullOrEmpty(tenantConnectionString))
@@ -59,11 +69,16 @@ namespace TennisCourtBookings.Persistence.Context
                     }
                 }
             }
+            else
+            {
+                // Use default connection string
+                optionsBuilder.UseSqlServer(_tenantService.GetConnectionStringFromTenantId("Defaults"));
+            }
         }
 
         public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = new CancellationToken())
         {
-            if (!string.IsNullOrEmpty(TenantId))
+            if (!string.IsNullOrEmpty(TenantId) && TenantId != "Defaults")
             {
                 foreach (var entry in ChangeTracker.Entries<IMustHaveTenant>().ToList())
                 {
@@ -81,5 +96,4 @@ namespace TennisCourtBookings.Persistence.Context
             return result;
         }
     }
-
 }

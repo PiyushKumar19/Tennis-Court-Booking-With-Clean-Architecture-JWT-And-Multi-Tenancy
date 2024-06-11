@@ -33,6 +33,7 @@ namespace TennisCourtBookings.Application.Features.UserFeatures.RegisterUser
             user.Username = request.Username;
             user.PasswordHash = passwordHash;
             user.PasswordSalt = passwordSalt;
+            user.TenantId = request.TenantId;
 
             _userRepository.Create(user);
             var res = await _unitOfWork.Save(cancellationToken);

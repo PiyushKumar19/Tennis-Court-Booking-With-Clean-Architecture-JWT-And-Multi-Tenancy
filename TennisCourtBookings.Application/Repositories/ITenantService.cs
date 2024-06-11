@@ -11,5 +11,6 @@ namespace TennisCourtBookings.Application.Repositories
         public string GetDatabaseProvider();
         public string GetConnectionString();
         public Tenant GetTenant();
+        public string GetConnectionStringFromTenantId(string tenantId);
     }
 }

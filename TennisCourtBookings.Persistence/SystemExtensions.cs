@@ -17,8 +17,8 @@ namespace TennisCourtBookings.Persistence
     {
         public static void ConfigurePersistence(this IServiceCollection services, IConfiguration configuration)
         {
-            var connectionString = configuration.GetConnectionString("DefaultString");
-            services.AddDbContext<DataContext>(opt => opt.UseSqlServer(connectionString));
+            //var connectionString = configuration.GetConnectionString("DefaultString");
+            //services.AddDbContext<DataContext>(opt => opt.UseSqlServer(connectionString));
 
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddScoped<IUserRepository, UserRepository>();

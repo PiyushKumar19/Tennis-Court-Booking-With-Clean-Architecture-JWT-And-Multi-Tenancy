@@ -45,7 +45,7 @@ namespace TennisCourtBookings.Application.Features.UserFeatures.LoginUser
                 return null;
             }
 
-            string token = CreateToken(exist, request.TenantId);
+            string token = CreateToken(exist, exist.TenantId);
             var loginResponse = new LoginUserResponse();
 
             loginResponse.Token = token;

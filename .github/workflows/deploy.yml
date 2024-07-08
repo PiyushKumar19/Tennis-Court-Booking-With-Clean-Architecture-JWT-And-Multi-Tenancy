@@ -1,0 +1,56 @@
+name: Deploy to AWS Elastic Beanstalk
+
+on:
+  push:
+    branches:
+      - release
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Setup .NET Core
+        uses: actions/setup-dotnet@v2
+        with:
+          dotnet-version: '8.0.x' # Use the .NET 8.0 SDK version
+
+      - name: Restore dependencies
+        run: dotnet restore
+
+      - name: Build project
+        run: dotnet build --configuration Release --no-restore
+
+      - name: Publish project
+        run: dotnet publish -c Release -o ./publish
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ secrets.AWS_REGION }}
+
+      - name: Deploy to AWS Elastic Beanstalk
+        env:
+          APPLICATION_NAME: TennisCourt-server
+          ENVIRONMENT_NAME: TennisCourt-env
+          S3_BUCKET: TennisCourt-deployments # Replace with your newly created bucket name
+        run: |
+          TIMESTAMP=$(date +%Y%m%d%H%M%S)
+          VERSION_LABEL=${GITHUB_SHA}-${TIMESTAMP}
+          zip -r ./application.zip ./publish/*
+          aws s3 cp ./application.zip s3://$S3_BUCKET/$VERSION_LABEL.zip
+          aws elasticbeanstalk create-application-version --application-name $APPLICATION_NAME --version-label $VERSION_LABEL --source-bundle S3Bucket=$S3_BUCKET,S3Key=$VERSION_LABEL.zip
+          aws elasticbeanstalk update-environment --application-name $APPLICATION_NAME --environment-name $ENVIRONMENT_NAME --version-label $VERSION_LABEL
+
+      - name: Get Elastic Beanstalk Environment URL
+        env:
+          APPLICATION_NAME: TennisCourt-server
+          ENVIRONMENT_NAME: TennisCourt-env
+        run: |
+          ENV_URL=$(aws elasticbeanstalk describe-environments --application-name $APPLICATION_NAME --environment-names $ENVIRONMENT_NAME --query "Environments[0].CNAME" --output text)
+          echo "Application is live at: http://$ENV_URL/"
